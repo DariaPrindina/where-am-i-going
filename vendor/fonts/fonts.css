@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: 
+    url(./Inter-Regular.woff) format("woff"),
+    url(./Inter-Regular.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: 
+    url(./Inter-Bold.woff) format("woff"),
+    url(./Inter-Bold.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  src: 
+    url(./Inter-Black.woff) format("woff"),
+    url(./Inter-Black.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: 
+    url(./roboto-regular.woff) format("woff"),
+    url(./roboto-regular.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: 
+    url(./roboto-700.woff) format("woff"),
+    url(./roboto-700.woff2) format("woff2");
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: 
+    url(./roboto-900.woff) format("woff"),
+    url(./roboto-900.woff2) format("woff2");
+}
