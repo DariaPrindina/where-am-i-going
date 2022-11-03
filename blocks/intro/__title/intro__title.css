@@ -1,8 +1,9 @@
 .intro__title {
   color: #f6cfac;
   text-transform: uppercase;
-  font-size: 10px;
-  font-family: "Roboto";
+  font-size: 12px;
+  font-family: "BasisGrotesqueMonoPro";
   font-style: normal;
   font-weight: 700;
+  margin: 260px 72px 35px;
 }
