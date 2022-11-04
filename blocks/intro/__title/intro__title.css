@@ -5,5 +5,21 @@
   font-family: "BasisGrotesqueMonoPro";
   font-style: normal;
   font-weight: 700;
-  margin: 260px 72px 35px;
+  left: 80px;
+  top: 200px;
+  position: absolute;
 }
+
+@media screen and (max-width: 1050px) {
+  .intro__title {
+    top: 170px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .intro__title {
+    left: 60px;
+    top: 150px;
+  }
+}
+

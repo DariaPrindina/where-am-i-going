@@ -2,5 +2,18 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  margin: 70px;
+  margin: 70px 70px 85px;
+}
+
+.place__text:last-of-type {
+  margin: 70px 70px 65px;
+}
+
+@media screen and (max-width: 800px) {
+  .place__text {
+    margin: 60px 60px 75px;
+  }
+  .place__text:last-of-type {
+    margin: 50px 50px 40px;
+  }
 }

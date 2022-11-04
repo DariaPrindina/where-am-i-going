@@ -1,6 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/root/root.css);
+@import url(../blocks/page/page.css);
 
 /* Header */
 
@@ -10,15 +11,16 @@
 @import url(../blocks/intro/__image/intro__image.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__subtitle/intro__subtitle.css);
+@import url(../blocks/intro/__image-box/intro__image-box.css);
 
 /* Places */
 @import url(../blocks/place/place.css);
-@import url(../blocks/places/places.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__paragraphs/place__paragraphs.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/place/__text/place__text.css);
+@import url(../blocks/place/__item/place__item.css);
 
 /* People */
 
