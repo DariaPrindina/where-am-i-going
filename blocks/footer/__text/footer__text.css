@@ -1,0 +1,21 @@
+.footer__text {
+  color: #010101;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  margin: 0;
+}
+
+@media screen and (max-width: 984px) {
+  .footer__text {
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .footer__text {
+    font-size: 36px;
+  }
+}
+

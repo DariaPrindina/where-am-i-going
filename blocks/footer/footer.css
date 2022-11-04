@@ -1,0 +1,22 @@
+.footer {
+  font-family: 'Inter', Arial, sans-serif;
+  width: 100%;
+  min-height: 70vh;
+  background-color: #FECDA7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+@media screen and (max-width: 984px) {
+  .footer {
+    min-height: 50vh;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .footer {
+    min-height: 30vh;
+  }
+}

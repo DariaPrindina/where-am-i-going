@@ -1,0 +1,14 @@
+.people__cards {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+  padding: 0;
+  margin: 120px 0 140px;
+}
+
+@media screen and (max-width: 568px){
+  .people__cards {
+    margin: 80px 0 100px;
+  }
+}
