@@ -10,8 +10,27 @@
 <body>
   <div class="root">
     <header class="header">
-    
+      <div class="header__burger">
+        <span class="header__span"></span>
+      </div>
+      <div class="header__menu">
+        <nav>
+          <ul class="header__list">
+            <li>
+              <a href="#" class="header__link">Мечты</a>
+            </li>
+            <li>
+              <a href="#" class="header__link">Ожидания</a>
+            </li>
+            <li>
+              <a href="#" class="header__link">Реальность</a>
+            </li>
+          </ul>
+        </nav>
+        <a href="#" class="header__complaint">Пожаловаться</a>
+      </div>
     </header>
+    <script src="./blocks/header/header.js"></script>
     <section class="intro">
       <img class="intro__image" src="./images/intro-image.jpeg" alt="Крыло самолета над облаками">
       <h1 class="intro__title">Куда я поеду</h1>
@@ -60,14 +79,32 @@
           </p>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="people">
-
-  </section>
-  <footer class="footer">
-
-  </footer>
+    </section>
+    <section class="people">
+      <p class="people__title">люди</p>
+      <p class="people__subtitle">Что говорят и&nbsp;говорили люди о&nbsp;путешествиях</p>
+      <ul class="people__cards">
+        <li class="people__card">
+          <p class="people__name">Иван Бунин</p>
+          <p class="people__quote">Человека делают счастливым три вещи: любовь, интересная работа и возможность путешествовать.</p>
+        </li>
+        <li class="people__card">
+          <p class="people__name">Альбер Камю</p>
+          <p class="people__quote">Путешествие как самая великая и серьезная наука помогает нам вновь обрести себя.</p>
+        </li>
+        <li class="people__card">
+          <p class="people__name">Норвежская пословица</p>
+          <p class="people__quote">Лишь тот, кто странствует, открывает новые пути.</p>
+        </li>
+        <li class="people__card">
+          <p class="people__name">Мария Захарова</p>
+          <p class="people__quote">В принципе зарубежная поездка – это серьезнейшее, ответственнейшее и очень рискованное предприятие.</p>
+        </li>
+      </ul>
+    </section>
+    <footer class="footer">
+      <p class="footer__text">&copy;&nbsp;2022<p>
+    </footer>
   </div>
 </body>
 </html>

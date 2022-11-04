@@ -1,0 +1,17 @@
+.people__title {
+  font-family: "BasisGrotesqueMonoPro", Arial, sans-serif;
+  text-transform: uppercase;
+  color: #FECDA7;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: left;
+  margin: 140px 0 35px 0;
+}
+
+@media screen and (max-width: 568px){
+  .people__title {
+    margin: 100px 0 48px 0;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,15 @@
+.header__complaint {
+  text-decoration: none;
+  color: #010101;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: left;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .header__complaint {
+    font-size: 20px;
+  }
+}

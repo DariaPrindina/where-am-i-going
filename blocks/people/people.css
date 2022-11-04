@@ -1,0 +1,30 @@
+.people {
+  font-family: "BasisGrotesquePro", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  max-width: 1280px;
+  min-width: 320px;
+  padding: 0 80px;
+  box-sizing: border-box;
+  margin: auto;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 984px) {
+  .people {
+    padding: 0 60px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .people {
+    padding: 0 40px;
+  }
+}
+
+@media screen and (max-width: 430px){
+  .people {
+    padding: 0 20px;
+  }
+}
+
