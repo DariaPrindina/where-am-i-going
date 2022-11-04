@@ -1,0 +1,14 @@
+.place__paragraph {
+  margin: 0;
+  font-family: 'BasisGrotesquePro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  max-width: 374px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.place__paragraph:last-of-type {
+  margin-bottom: 0;
+}

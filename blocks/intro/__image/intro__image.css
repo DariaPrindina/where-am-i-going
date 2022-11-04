@@ -1,0 +1,8 @@
+.intro__image {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  right: 150px;
+  top: 150px;
+}
