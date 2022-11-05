@@ -5,9 +5,8 @@
   line-height: 1.2;
   text-align: left;
   margin: 0;
-  letter-spacing: -0.04em;
-  word-spacing: -0.35em;
-  max-width: 40%;
+  font-family: 'BasisGrotesquePro';
+  max-width: 500px;
 }
 
 @media screen and (max-width: 568px){
@@ -17,3 +16,8 @@
   }
 }
 
+@media screen and (max-width: 370px){
+  .people__subtitle {
+    font-size: 26px;
+  }
+}

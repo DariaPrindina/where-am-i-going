@@ -37,9 +37,30 @@
 
 @media screen and (max-width: 700px) {
   .intro__image {
-    margin: auto;
     width: 250px;
     height: 250px;
     top: 6em;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .intro__image {
+    width: 180px;
+    height: 180px;
+    top: 8em;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .intro__image {
+    width: 180px;
+    height: 180px;
+    top: 14em;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .intro__image {
+    left: 60px;
   }
 }

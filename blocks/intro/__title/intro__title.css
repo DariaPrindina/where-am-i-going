@@ -2,12 +2,13 @@
   color: #f6cfac;
   text-transform: uppercase;
   font-size: 12px;
-  font-family: "BasisGrotesqueMonoPro";
+  font-family: "BasisGrotesqueMonoPro", Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
   left: 80px;
   top: 200px;
   position: absolute;
+  text-rendering: optimizeLegibility;
 }
 
 @media screen and (max-width: 1050px) {
@@ -23,3 +24,15 @@
   }
 }
 
+@media screen and (max-width: 550px) {
+  .intro__title {
+    left: 60px;
+    top: 80px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .intro__title {
+    top: 70px;
+  }
+}

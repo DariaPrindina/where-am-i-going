@@ -2,9 +2,15 @@
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 7%;
+  gap: 6.5%;
   padding: 0;
   margin: 120px 0 140px;
+}
+
+@media screen and (max-width: 1255px){
+  .people__cards {
+    gap: 4%;
+  }
 }
 
 @media screen and (max-width: 568px){

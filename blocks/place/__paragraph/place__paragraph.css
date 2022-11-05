@@ -1,6 +1,6 @@
 .place__paragraph {
   margin: 0;
-  font-family: 'BasisGrotesquePro';
+  font-family: 'BasisGrotesquePro', Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 13px;
@@ -11,4 +11,10 @@
 
 .place__paragraph:last-of-type {
   margin-bottom: 0;
+}
+
+@media screen and (max-width:740px) {
+  .place__paragraph {
+    margin-bottom: 10px;
+  }
 }

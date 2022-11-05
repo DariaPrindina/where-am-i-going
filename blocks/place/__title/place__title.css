@@ -1,6 +1,6 @@
 .place__title {
   margin: 0;
-  font-family: "BasisGrotesquePro";
+  font-family: "BasisGrotesquePro", Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 34px;
