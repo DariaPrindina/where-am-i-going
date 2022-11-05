@@ -1,7 +1,8 @@
 .people__quote {
   color: #010101;
+  font-family: "BasisGrotesquePro", Arial, sans-serif;
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.6;
   text-align: left;
   margin: 0;
