@@ -12,7 +12,7 @@
   }
 }
 
-@media screen and (max-width: 984px){
+@media screen and (max-width: 895px){
   .people__card {
     max-width: 40%;
     margin-bottom: 8%;
