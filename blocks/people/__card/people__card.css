@@ -1,17 +1,20 @@
 .people__card {
-  max-width: 220px;
+  max-width: 19%;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1140px){
   .people__card {
-    max-width: 250px;
+    max-width: 25%;
     margin-bottom: 8%;
+  }
+  .people__card:last-child {
+    margin-bottom: 0;
   }
 }
 
 @media screen and (max-width: 984px){
   .people__card {
-    max-width: 250px;
+    max-width: 40%;
     margin-bottom: 8%;
   }
   .people__card:last-child {
