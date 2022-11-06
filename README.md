@@ -1,6 +1,6 @@
 # Project: whereamigoing
 
-Demo on github Pages ...
+Demo on github Pages https://dariaprindina.github.io/where-am-i-going
 
 ## Project description
 
